@@ -1,29 +1,51 @@
-# Puppy Bowl Roster App
+# Space Invader
 
-> **Project status:** The repository name and page title refer to Space Invaders, but the current JavaScript is for a Puppy Bowl roster app. The checked-in page and script are not yet wired together, so the roster app does not currently run as intended.
+A personal browser-based arcade project built because I wanted to play **Space Invaders** my way.
 
-The JavaScript is set up to use the Puppy Bowl API for a course cohort. It is intended to fetch and display players, show player details, add players, and remove players.
+This repository is not a course assignment or a learning-platform submission. It is an independent project: a hands-on attempt to recreate the feel of a classic space shooter while building something I could actually play, improve, and make my own.
 
-## Current files
+## Why I built it
 
-```text
-.
-├── index.html   # Current page markup; title says "Space Invaders"
-├── index.js     # Puppy Bowl API requests and roster logic
-└── style.css    # Player-card styling
-```
+I did not start this project to complete a lesson. I started it because I wanted a Space Invaders game and decided to build one. That makes this repository both a playable experiment and a record of the ideas, problem-solving, and iteration behind the game.
 
-## Known issues
+## Project goals
 
-- `index.js` looks for `all-players-container` and `new-player-form`, but those elements are missing from `index.html`.
-- `index.html` links to `Style.css`, while the stylesheet is named `style.css`. This case mismatch prevents the stylesheet from loading on case-sensitive systems.
-- The JavaScript uses the Puppy Bowl API cohort `2302-ACC-PT-WEB-PT-B`; API availability and cohort data are required for roster requests to work.
+- Create a simple, playable Space Invaders-inspired experience in the browser.
+- Practice turning game ideas into working HTML, CSS, and JavaScript.
+- Experiment with layout, styling, player interaction, scoring, and game logic.
+- Keep improving the project as new ideas and refinements take shape.
 
-## Technologies
+## Built with
 
-- HTML
-- CSS
-- JavaScript
-- Puppy Bowl API
+- **HTML** for the game page structure
+- **CSS** for the visual presentation and arcade-inspired styling
+- **JavaScript** for the interactive game behavior
 
-This repository is a work in progress and a place to practice JavaScript, DOM manipulation, and API requests.
+## Run the game locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/matwal42083/vigilant-octo-potato-Space--Invader-games.git
+   ```
+
+2. Open the project folder.
+3. Launch `index.html` in a modern web browser.
+
+For the smoothest local development experience, use a small local server such as the **Live Server** extension for Visual Studio Code.
+
+## Project status
+
+This is a personal work-in-progress. The game is intentionally open to refinement as I continue improving the gameplay, presentation, and overall arcade experience.
+
+## Future ideas
+
+- Add more polished enemy movement and attack patterns.
+- Improve scoring, lives, levels, and game-over behavior.
+- Refine the visual design and feedback during gameplay.
+- Add sound effects and additional arcade-style details.
+- Make the game comfortable to play on more screen sizes.
+
+## License
+
+This project is available for personal learning, experimentation, and play. See the repository for the current source files and project history.
