@@ -26,7 +26,7 @@ I did not start this project to complete a lesson. I started it because I wanted
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/matwal42083/vigilant-octo-potato-Space--Invader-games.git
+   git clone https://github.com/matwal42083/space-invaders-game.git
    ```
 
 2. Open the project folder.
